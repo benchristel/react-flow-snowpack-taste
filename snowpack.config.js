@@ -1,21 +1,21 @@
 // Snowpack Configuration File
 // See all supported options: https://www.snowpack.dev/reference/configuration
 
-/** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
-  mount: {
-    /* ... */
-  },
+  exclude: [
+    "**/node_modules/**/*",
+    "**/.git/**/*",
+  ],
   plugins: [
     ["snowpack-flow-remove-types"],
+    ["@snowpack/plugin-webpack", {sourceMap: true}],
   ],
-  packageOptions: {
-    /* ... */
-  },
-  devOptions: {
-    /* ... */
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: "es6",
   },
   buildOptions: {
-    /* ... */
+    out: "docs",
   },
 };

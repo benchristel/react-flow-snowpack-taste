@@ -11,7 +11,7 @@ It assumes you have `yarn` and `node` installed.
 
 1. Click the [**"Use this template"**](https://github.com/benchristel/react-flow-snowpack-taste/generate) button on GitHub to create a new project based on this template repo.
 1. Clone the repo.
-1. Change the package name, author, and license in `package.json`, and the `<title>` in `index.html`.
+1. Change the package name, author, and license in `package.json`, and the `<title>` and favicon in `index.html`.
 
 ## Dev Commands
 

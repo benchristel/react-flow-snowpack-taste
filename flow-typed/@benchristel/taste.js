@@ -1,3 +1,4 @@
+// @flow
 declare module "@benchristel/taste" {
     declare type Predicate = (...args: Array<any>) => boolean
     declare opaque type Tests
@@ -14,7 +15,11 @@ declare module "@benchristel/taste" {
         ...expected: Array<any>
     ): mixed
 
+    declare export function is(any): (any) => boolean
     declare export function is(any, any): boolean
+    declare export function equals(any): (any) => boolean
+    declare export function equals(any, any): boolean
+    declare export function which(Predicate): any
 
     declare export function getAllTests(): Tests
     declare export function runTests(Tests): Promise<TestResults>

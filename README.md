@@ -5,7 +5,9 @@ This template repo lets you quickly get a
 using a set of technologies chosen for simplicity and fast
 feedback.
 
-It assumes you have `yarn` and `node` installed.
+How fast is fast? [UX research says 400 milliseconds is about as long as you can wait without feeling like you're waiting](https://github.com/benchristel/benchristel.github.io/wiki/DohertyThreshold). Flow (the typechecker) and Taste (the test framework) can check your code for mistakes in under 400ms.
+
+These instructions assume you have `yarn` and `node` installed.
 
 ## Setup
 

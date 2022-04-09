@@ -7,11 +7,4 @@ import {test, expect, is} from "@benchristel/taste"
 import "./global.css"
 
 render(<App />, document.getElementById("app"))
-
-test("a tautology", {
-    "is true"() {
-        expect(true, is, true)
-    }
-})
-
 render(<TestResults />, document.getElementById("test-results"))

@@ -28,6 +28,12 @@ and the page reloads whenever you change a source file.
 
 See [@benchristel/taste](https://npmjs.com/package/@benchristel/taste) for more info about the test framework.
 
+## Support
+
+If you run into problems, or you find simple ways to improve
+the development experience, please let me know by opening
+an issue on this repo.
+
 ## Known Issues
 
 The dev server crashes sometimes (when you rename a JS file? TODO: figure out exactly what the trigger is).

@@ -1,10 +1,12 @@
 // @flow
 import * as React from "react"
 import {render} from "react-dom"
-import {TestResults} from "./TestResults.jsx"
+import {App} from "./App"
+import {TestResults} from "./TestResults"
 import {test, expect, is} from "@benchristel/taste"
+import "./global.css"
 
-render(<p>Hello from React!</p>, document.getElementById("app"))
+render(<App />, document.getElementById("app"))
 
 test("a tautology", {
     "is true"() {
